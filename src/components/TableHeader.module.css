@@ -1,0 +1,21 @@
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4);
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--Primary-900);
+  font-family: var(--font-roboto);
+}
+.text {
+  position: relative;
+  font-weight: 600;
+}
+.arrowDownIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  display: none;
+}

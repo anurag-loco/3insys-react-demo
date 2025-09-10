@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,900&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Color */
+  --color-whitesmoke-100: #ededed;
+  --color-gray: #767676;
+  --color-black: #000;
+  --color-blueviolet: #3d3ad3;
+  --Gray-100: #f5f5f5;
+  --Primary-900: #051433;
+  --Gray-300: #d0d5dd;
+  --Gray-200: #eaecf0;
+  --Gray-9001: #242424;
+  --Gray-900: #101828;
+  --Gray-400: #c2c2c2;
+  --Base-White: #fff;
+  --Gray-050: #fafafa;
+  --Gray-White: #fff;
+
+  /* Gap */
+  --gap-4: 4px;
+  --gap-8: 8px;
+  --gap-12: 12px;
+  --gap-16: 16px;
+  --gap-24: 24px;
+
+  /* Padding */
+  --padding-10: 10px;
+  --padding-12: 12px;
+  --padding-16: 16px;
+  --padding-18: 18px;
+  --padding-20: 20px;
+  --padding-24: 24px;
+  --padding-32: 32px;
+
+  /* BorderRadius */
+  --br-4: 4px;
+  --br-6: 6px;
+  --br-8: 8px;
+  --br-12: 12px;
+  --br-32: 32px;
+  --br-100: 100px;
+
+  /* Font */
+  --font-roboto: Roboto;
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+
+  /* FontSize */
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
+}

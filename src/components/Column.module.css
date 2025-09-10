@@ -1,0 +1,65 @@
+.column {
+  flex: 1;
+  background-color: var(--Gray-White);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 231px;
+  max-width: 236px;
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--Primary-900);
+  font-family: var(--font-roboto);
+}
+.checkbox,
+.tableHeaderCell {
+  flex-direction: row;
+  align-items: center;
+}
+.tableHeaderCell {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  border-bottom: 1px solid var(--Gray-200);
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-12) var(--padding-12) var(--padding-10);
+  gap: var(--gap-12);
+  font-size: var(--font-size-16);
+}
+.checkbox {
+  display: none;
+  justify-content: center;
+}
+.checkboxBase {
+  width: 20px;
+  position: relative;
+  border-radius: var(--br-6);
+  background-color: var(--Gray-White);
+  border: 1px solid var(--Gray-300);
+  box-sizing: border-box;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tableCell {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12);
+}
+.text {
+  position: relative;
+  line-height: 24px;
+}
+.columnTableCell {
+  align-self: stretch;
+  background-color: var(--Gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-12);
+}
